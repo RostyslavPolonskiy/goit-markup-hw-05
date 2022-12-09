@@ -522,13 +522,16 @@ section.banner {
   border-radius: 4px;
   padding: 0 22px;
   margin-right: 8ox;
-  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+   background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, 
+   border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+   color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .filter-button:hover,
 .filter-button:focus {
   color: var(--color-wild-sand);
-  background: var(--color-dodger-blue);
+  background-color: var(--color-dodger-blue);
   border-color: var(--color-dodger-blue);
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08),
     0 2px 2px rgba(0, 0, 0, 0.12);
