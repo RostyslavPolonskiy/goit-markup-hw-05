@@ -516,7 +516,7 @@ section.banner {
 }
 
 .filter-button {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   background-color: var(--color-whisper);
